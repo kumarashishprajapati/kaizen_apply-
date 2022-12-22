@@ -1,0 +1,267 @@
+
+<!doctype html>
+<html lang="en">
+  <head>{%block head%}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet"  href="static/css/style.css"></link>
+    <title>{%block 'title'%}{%endblock 'title'%}Welcome to Explore</title>
+    {%endblock head%}
+   
+   <style> 
+     .background{
+      background-image:url("static/images/background.jpeg");
+      height:500px;
+      
+    } 
+    #paragraph{
+      display: flex;
+
+      /*this centers the text horizontally*/
+      justify-content: center;
+    
+      /*this centers the text vertically*/
+      align-items: center;
+    
+      height: 200px;
+      color: #fff;
+      
+      
+    }
+    
+     body{
+      background-image:url("static/images/background.jpeg");
+      background-repeat:no-repeat;
+      background-size:3000px;
+      
+    } 
+    .nav-item{
+      color:white;
+    }
+    .navbarSupportedContent{
+      color:white;
+    }
+    h1{
+      color:grey;
+    }
+    address{
+      color:white;
+    }
+    #table{
+      color:white;
+    }
+
+    ul.social-ul {
+      padding-left: 0px;
+      background-color: #3D99CE;
+      text-align: center;
+    }
+    ul.social-ul > li {
+      display: inline-block;
+      padding: 10px 20px;
+    }
+    ul.social-ul > li:hover {
+      background-color: #2779BF;
+    }
+    ul.social-ul > li > a {
+      color: white;
+      text-decoration: none;
+    }
+    .detail{
+      background-image:url("static/images/bg6.jpg")
+      height:500px;
+      weidth:100%;
+    }
+
+
+
+  </style> 
+  </head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <body>{%block body%}
+    <!-- Example Code -->
+    
+    <nav class="navbar navbar-expand-lg text-bg-dark  ">
+      <div class="card-img-overlay">
+      <div class="container-fluid " id="im">
+       
+        <a class="navbar-brand my-0" href="#"></a>
+        {% comment %} <img src="static/images/kaizen images.jpg" width="300px" height="50px"> {% endcomment %}
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mx-3 mb-lg-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="static/about.txt" target="_main">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://www.youtube.com/watch?v=JxzZxdht-XY&t=3533s" target="_main">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <b> Kaizen</b>
+              </a>
+              <ul class="dropdown-menu">
+                <div class="bg-success p-2 text-dark bg-opacity-75">
+                   <li><a class="dropdown-item"  href="/apply" >Apply Kaizen</a></li>
+              </div>
+              <div class="bg-success p-2 text-dark bg-opacity-50">
+                <li><a class="dropdown-item" href="#">Kaizen Status</a></li>
+              </div>
+                
+                <div class="bg-success p-2 text-dark bg-opacity-25">
+                <li><a class="dropdown-item" href="#">forbiden</a></li>
+              </div>
+              </ul>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/contactus" target="_main">Contact us</a>
+              </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </nav>
+    <div></div>
+      
+  
+    <div  class="background">
+   <i> <h1 style="text-align:center" id="paragraph"> TATA The Pride Of India</h1></i>
+    </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="static/images/k2.jpg" height="300px" class="card-img-top" alt="kaizen image">
+        <div class="card text-bg-dark mb-3">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a href="#" >click here</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="static/images/k3.jpg" height="300px" class="card-img-top" alt="...">
+        <div class="card text-bg-dark mb-3">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" >click here</a>
+        </div>
+      </div>
+      <div class="card">
+        
+        <img src="static/images/k4.jpg" height="300px" class="card-img-top" alt="...">
+        <div class="card text-bg-dark mb-3" >
+          <h5 class="card-title" >Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+          <a href="#" >click here</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="detail">
+      <p style="text-align:center;"> thats a big dream </p>
+    </div>
+    <div class="card text-bg-dark">
+      <img src="static/images/bg4.jpg" width="500px" height="500px" class="card-img" alt="..." >
+      <div class="card-img-overlay">
+        <h5 class="card-title " style="text-align:center;">Kaizen History</h5>
+        <pre class="card-text">What is Kaizen Strategy?
+          Kaizen is a Japanese word that translates to improvement (continuous) or changes for the better in English. Kaizen Strategy stems from Japanese business philosophy,<br> focuses on gradual growth in productivity through employee engagement and continuous improvement in operations.
+          
+          Different Kaizen Principles
+          Kaizen principles deal with process, people, product, and environment. <br>The most essential ones are:
+          
+          Customer value
+          Business process improvement aims to ensure customer satisfaction, which is necessary for growth.<br> For enhancing customer experience, it is crucial to understand what exactly they want.
+          </pre>
+      </div>
+    </div>
+    <!--social links-->
+        <ul class="social-ul">
+          <li>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+            >
+              <img src="static/images/facebook.webp" alt="Facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com" target="_blank">
+              <img src="static/images/twitteer.webp" alt="Twitter" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com"
+              target="_blank"
+            >
+              <img src="static/images/youtube.webp" alt="Youtube" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+            >
+              <img src="static/images/linkedin.webp" alt="Linkedin" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com"
+              target="_blank">
+              <img src="static/images/instagram.png" alt="instagram" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    
+    <!-- table tag start-->
+    <hr>
+    <table style=" text-align:center; width:100% " id='table'>
+      <tr>
+        <th>Company</th>
+        <th>Resources</th>
+        <th>contact</th>
+      </tr>
+      <tr>
+        <td>About</td>
+        <td>Team</td>
+        <td>Email</td>
+      </tr>
+      <tr>
+        <td>Carrer</td>
+        <td>services</td>
+        <td>phone no</td>
+      </tr>
+    </table>
+    <!--Address tag start from here-->
+    <address style="padding:20px"><hr>
+      You can contact admin at
+  <a href="http://www.omservices.com/contact"> www.somedomain.com</a>.<br />
+  If you see any bugs, please
+  <a href="mailto:ashishgreat9897@gmail.com"> contact Mail</a>.<br />
+  You may also want to visit us:<br />
+  TSIIC AEROSPACE AND PRECISION ENGINEERING<br/>
+  WARE HOUSE Hyderabad<br/>
+  Telangana 501510<br />
+  INDIA.
+     </address>
+     <!--footer tag start-->
+    <footer style="text-align:center; color:white;">
+      <div>
+        Copyright @ 2022 TCOE Aerospace. All Rights Reserved.
+      </div>
+    </footer>
+
+    {% endblock body %}
+  </body>
+</html>

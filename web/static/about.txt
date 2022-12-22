@@ -1,0 +1,23 @@
+Kaizen is a Japanese term which means “good change”, “change for the better”, or “improvement.” 
+As a philosophy, kaizen promotes a mindset where small incremental changes create an impact over time.
+As a methodology, kaizen enhances specific areas in a company by involving top management and rank-and-file
+employees to initiate everyday changes, knowing that many tiny improvements can yield big results.
+
+
+
+Key Elements and Core Principles
+Implementing kaizen in the workplace can be near impossible because management usually expects immediate results. Companies often miss out on improved work procedures and optimized business processes which yield a corporate advantage due to focusing too much on results. To maximize the benefits of kaizen, the following elements and principles should be clearly understood before applying them in your context.
+
+Management Commitment
+One of the most common reasons kaizen implementation fails is the lack of support and, more importantly, action from leaders. Imai states, “The top management of the company has the most important role in implementing this kaizen approach, and then every manager, then it goes down to rank-and-file employees.” When top management demonstrates its long-term commitment to continuous improvement, managers inevitably follow through on kaizen initiatives and workers personally develop a kaizen mindset.
+
+Employee Empowerment
+The employee doing the job would know the best ways to improve how a job is done. Leaders should create an environment where people feel empowered to contribute so that suggestions for improvement can come from all levels and ranks. Encouraging workers to keep adding value to the organization not only boosts morale, it also gives everyone ownership of continuous improvement efforts, which contributes to the successful implementation of kaizen.
+
+Gemba Walk
+Achieving operational efficiency begins where the actual task happens, not from a conference room. A Gemba Walk—derived from the term gemba or gembutsu, which means “the real place”—is usually performed by managers to learn or review exactly how a specific process works and gain insights from workers about its improvement. Gemba Walk Checklists guide the observers in asking relevant questions to determine the root cause of problems and the next steps.
+
+5S
+One of the biggest barriers to continuous improvement is clinging to old practices or assuming new methods will fail. The 5S principles aim to enhance workplace efficiency by constantly looking for ways to eliminate waste. Organizations should refrain from thinking that just because something worked before means it will continue to work. The 6S of lean added safety to 5S, emphasizing the setup of preventive controls for safe work operations.
+
+“Progress cannot be generated when we are satisfied with existing situations.”
